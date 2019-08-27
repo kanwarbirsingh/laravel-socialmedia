@@ -1,3 +1,19 @@
+# laravel-socialmedia
+A Social Media App based in Laravel 5.4
+
+Inspired from Youtube tutorial series at https://www.youtube.com/playlist?list=PL55RiY5tL51oloSGk5XdO2MGjPqc0BxGV by Academind(https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w)
+
+Really great tutorial series !!!
+
+Although, the series uses Laravel 5.2, but this project is developed in Laravel 5.4
+
+There are some changes in both the versions which posed some problems while following the series. I documented the changes along the way which were appropriate in my case, but might not be for others.
+
+OS: Windows 10
+Stack: WAMP 3.1.19(64-bit)
+IDE: VS Code
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
