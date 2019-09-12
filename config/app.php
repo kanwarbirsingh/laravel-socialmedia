@@ -25,7 +25,7 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'production'),
+    'env' => env('APP_ENV', 'development'),
 
     /*
     |--------------------------------------------------------------------------
@@ -169,6 +169,11 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
 
         /*
+         * Laravel Debugbar
+         */
+        Barryvdh\Debugbar\ServiceProvider::class,
+
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
@@ -225,7 +230,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        // Register Debugbar alias
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
 ];

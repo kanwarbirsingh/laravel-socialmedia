@@ -5,10 +5,15 @@ Inspired from Youtube tutorial series at https://www.youtube.com/playlist?list=P
 
 Really great tutorial series !!!
 
-Although, the series uses Laravel 5.2, but this project is developed in Laravel 5.4
+Code for this youtube series can be found at https://github.com/mschwarzmueller/laravel-basics-youtube
+
+Although, the series uses Laravel 5.2, but this project is developed in Laravel 5.4. I did not clone the github repository for this series, but followed the tutorial series and developed along the way.
 
 There are some changes in both the versions which posed some problems while following the series. I documented the changes along the way which were appropriate in my case, but might not be for others.
 
+Also,I used a Laravel debugging package for this project after doing some research on Laravel debuggers. I used Laravel Debugbar package by Barry vd. Heuvel present at https://github.com/barryvdh/laravel-debugbar/tree/2.4. Because this project uses Laravel 5.4, it is imperative to use Branch 2.4 for Laravel Debugbar as Laravel >5.5 versions use the latest release and Laravel <5.4 versions use 2.4 branch.
+
+Specs:
 OS: Windows 10
 Stack: WAMP 3.1.19(64-bit)
 IDE: VS Code
